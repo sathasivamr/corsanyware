@@ -19,7 +19,10 @@
     "proxy",
     "heroku"
   ],
-  "main": "corsanyware/lib/cors-anywhere.js",
+
+   "scripts": {
+            "start": "node ./lib/cors-anywhere.js"
+          },
   "dependencies": {
     "http-proxy": "1.11.1",
     "proxy-from-env": "0.0.1"
